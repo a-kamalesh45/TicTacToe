@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #096946;
+}
+
+.container {
+    color: black;
+    font-family: "Permanent Marker", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 20vh;
+    margin: 10px;
+    border-radius: 30px;
+    width: 20vh;
+    cursor: pointer;
+    border: none;
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.4);
+    font-family: "Audiowide", serif;
+    font-size: 80px;
+    /* color: rgb(123, 25, 40);
+    color: rgb(15, 52, 81) */
+}
+
+.btn:hover {
+    background-color: rgb(214, 201, 183);
+}
+
+.reset {
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.reset:hover {
+    background-color: rgb(10, 10, 10);
+}
+
+.win{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+    letter-spacing: 5px;
+    padding: 8px;
+}
