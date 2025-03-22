@@ -4,6 +4,7 @@ let winMsg = document.querySelector('.win');
 let playerX = true; // true for X and false for O
 let count = 0;
 
+
 const winningPos = [
     [0,1,2],
     [3,4,5],

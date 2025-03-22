@@ -7,9 +7,10 @@
 
 body {
     text-align: center;
-    background-color: #096946;
-}
+    /* background-color: #096946; */
+    background-color: teal;
 
+}
 .container {
     color: black;
     font-family: "Permanent Marker", serif;
@@ -25,7 +26,7 @@ body {
     height: 70vh;
     width: 70vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
 }
@@ -46,7 +47,11 @@ body {
 }
 
 .btn:hover {
-    background-color: rgb(214, 201, 183);
+    /* background-color: rgb(214, 201, 183); */
+    transition: transform 0.2s;
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.8);
+
 }
 
 .reset {
@@ -62,6 +67,7 @@ body {
 }
 
 .reset:hover {
+
     background-color: rgb(10, 10, 10);
 }
 
